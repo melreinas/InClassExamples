@@ -1,5 +1,9 @@
 
 public class ProgramLauncher {
+
+	public static void bugFix() {
+		System.out.println("Bug fixed");
+	}
 	
 	public static void printName() {
 		System.out.println("My name is Mel.");
@@ -16,6 +20,7 @@ public class ProgramLauncher {
 		System.out.println(mySum(1,2));
 		
 		printName();
+		bugFix();
 	}
 
 }
